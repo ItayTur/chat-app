@@ -184,8 +184,16 @@ button:disabled {
 
 .controller {
     display: flex;
-    align-items: end;
-    width: 25%;
+    width: 40%;
     justify-content: space-between;
     padding-bottom: 25px;
+}
+
+.form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
